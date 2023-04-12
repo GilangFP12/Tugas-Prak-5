@@ -1,0 +1,194 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    margin-left: 2%;
+    color: #fff;
+}
+.nav{
+    background-color: #fff;
+    padding: 0.4% 0;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+li{
+    display: inline;
+    padding: 0.5%;
+}
+.search{
+    display: inline;
+    float: right;
+    padding: 0.5%;
+    text-align: center ;
+    border-radius: 10px;
+    margin-right: 4%;
+    margin-top: -3%;
+}
+.maincontent{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 2%;
+    width: 63%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.maincontent h1 {
+    margin-left: 2%;
+}
+.maincontent p{
+    margin-left: 2%;
+}
+.maincontent img{
+    margin-left: 2%;
+    width: 95%;
+    height: 95%;
+}
+.sidebar{
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+    margin-top: 2%;
+    width: 30%;
+    margin-right: 2%;
+}
+.sidebar h3{
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.sidebar a{
+    margin-left: 4%;
+}
+.flckr{
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+    margin-top: 2%;
+    width: 30%;
+    margin-right: 2%;
+}
+.flckr h3{
+    margin-left: 4%;
+}
+.image {
+    display: flex;
+    float: left;
+    margin: 12px;
+}
+.image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+@media screen and(max-width:1024px){
+    .header{
+        margin-left: 2%;
+        color: #fff;
+    }
+    .nav{
+        background-color: #fff;
+        padding: 0.4% 0;
+        border-radius: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    li{
+        display: inline;
+        padding: 0.5%;
+    }
+    .search{
+        display: inline;
+        float: right;
+        padding: 0.5%;
+        text-align: center ;
+        border-radius: 10px;
+        margin-right: 2%;
+        margin-top: -20%;
+    }
+    .maincontent{
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 2%;
+        width: 63%;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .maincontent h1 {
+        margin-left: 2%;
+    }
+    .maincontent p{
+        margin-left: 2%;
+    }
+    .maincontent img{
+        margin-left: 2%;
+        width: 95%;
+        height: 95%;
+    }
+    .sidebar{
+        background-color: #fff;
+        border-radius: 10px;
+        float: right;
+        margin-top: 2%;
+        width: 30%;
+        margin-right: 2%;
+    }
+    .sidebar h3{
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+    .sidebar a{
+        margin-left: 4%;
+    }
+    .flckr{
+        background-color: #fff;
+        border-radius: 10px;
+        float: right;
+        margin-top: 2%;
+        width: 30%;
+    }
+    .flckr h3{
+        margin-left: 4%;
+    }
+    .image {
+        display: flex;
+        margin: 10px;
+    }
+    .image img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .maincontent {
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .sidebar {
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .flckr {
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .image{
+        margin-right: 2%;
+    }
+    .search{
+        margin-top: -20%;
+    }
+  }
